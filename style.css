@@ -1,0 +1,44 @@
+.sec1::after{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    content: "";
+    z-index: -1;
+    opacity: 80%;
+    background-image: -webkit-linear-gradient(0deg, #f9218d 0%, #6c19f6 100%);
+  }
+  .sec1{
+    background-image: url(imeg/xdownload-bg.png.pagespeed.ic.rs5beqBEtE.webp);
+
+    background-size: cover;
+    position: relative;
+ background-repeat: no-repeat;
+
+      z-index: 1;
+
+}
+.mgf{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+.nv1:hover{
+color: rgb(108, 25, 246);
+border-bottom: 1px solid #6c19f6;
+
+}  
+
+.card1:hover{
+  transition: all 0.25s ease-in;
+  transform: scale(1.03);
+  box-shadow:   10px 15px 30px rgb(248, 246, 252,0.3);
+  
+}
